@@ -127,3 +127,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'pranathirudraraju80@gmail.com'
 EMAIL_HOST_PASSWORD = 'xhvsjrbtqoqktfhg' # Use App Password if Gmail
 EMAIL_USE_TLS = True
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
